@@ -22,6 +22,35 @@
           <li><a href="#">STORE</a></li>
           <li><a href="#">CAREERS</a></li>
         </ul>
+        <div class="burger" id="burger">
+          <span class="row"></span>
+          <span class="row"></span>
+          <span class="row"></span>
+        </div>
+      </div>
+      <div class="mobile-navigation" id="menu">
+        <nav class="mobile-nav">
+          <ul class="mobiel-nav-ul">
+            <li class="mobile-nav-li">
+              <a class="mobile-nav-a" href="#">HOME</a>
+            </li>
+            <li class="mobile-nav-li">
+              <a class="mobile-nav-a" href="#">ROSTER</a>
+            </li>
+            <li class="mobile-nav-li">
+              <a class="mobile-nav-a" href="#">NEWS</a>
+            </li>
+            <li class="mobile-nav-li">
+              <a class="mobile-nav-a" href="#">STREAMS</a>
+            </li>
+            <li class="mobile-nav-li">
+              <a class="mobile-nav-a" href="#">STORE</a>
+            </li>
+            <li class="mobile-nav-li">
+              <a class="mobile-nav-a" href="#">CAREERS</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
   </header>
@@ -159,25 +188,39 @@
       <li>34 MINUTES AGO</li>
       <li>@DENIALSPUDDY</li>
     </ul>
-    </div>
-    <img src="fotos/twitter.gif" alt="gate">
-    <div class="twitter-div">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-      <ul>
-        <li>34 MINUTES AGO</li>
-        <li>@DENIALSPUDDY</li>
-      </ul>
-    </div>
-    <img src="fotos/twitter.gif" alt="gate">
-    <div class="twitter-div">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-      <ul>
-        <li>34 MINUTES AGO</li>
-        <li>@DENIALSPUDDY</li>
-      </ul>
-    </div>
   </div>
+  <img src="fotos/twitter.gif" alt="gate">
+  <div class="twitter-div">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    <ul>
+      <li>34 MINUTES AGO</li>
+      <li>@DENIALSPUDDY</li>
+    </ul>
+  </div>
+  <img src="fotos/twitter.gif" alt="gate">
+  <div class="twitter-div">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    <ul>
+      <li>34 MINUTES AGO</li>
+      <li>@DENIALSPUDDY</li>
+    </ul>
+  </div>
+</div>
 
 </div>
+<script src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="js/script.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.slick-slider').slick({
+		    	dots: true,
+			  	infinite: true,
+			  	speed: 500,
+			  	fade: false,
+  				cssEase: 'linear'
+			});
+		})
+	</script>
 </body>
 </html>
